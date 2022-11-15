@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100px;
+    background-color: rgb(57, 166, 254);
+}
+.logo{
+    height: 60px;
+    padding: 12px 35px;
+    display: block;
+}
+nav ul{
+    display: flex;
+    float: right;
+    padding: 0px 80px;
+    margin-top: -20px;
+}
+ul li{
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    padding-left: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+ul li a:hover{
+    color: black;
+}
+.h-text{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)), url(banner.jpg);
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+}
+span{
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white; 
+    padding-top: 40px;
+}
+form{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+button{
+    text-align: center;
+    font-size: large;
+    margin: 5px 10px;
+    padding: 4px 6px;
+}
+.button{
+    text-align: center;
+}
+button .btn{
+    margin-top: 40px;
+}
+input{
+    font-size: 20px;
+    padding: 5px;
+    
+}
+.submit{
+    background-color: rgb(11, 127, 252);
+    border-radius: 5px;
+    color: aliceblue;
+    margin-left: -85px;
+    border: none;
+}
+.search{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: none;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 10px;
+}
